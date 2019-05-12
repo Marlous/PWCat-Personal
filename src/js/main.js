@@ -1,9 +1,6 @@
- /* 当一定宽度下文档流的高度小于窗口的高度时，添加 height-add 样式（height 为 100vh），当高度充满整个窗口。 */
+ /* 当一定宽度下，文档流的高度小于窗口的高度时，添加 height-add 样式（height 为 100vh），让高度充满整个窗口。 */
  height = document.body.clientHeight;
  width = document.body.clientWidth;
-
- alert(height);
- alert(width);
 
  if(mapping(width) < height)
  {
