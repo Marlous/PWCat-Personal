@@ -1,0 +1,58 @@
+/********************** home 页面的独有样式 **********************/
+
+/* 设置 header（flex 成员）中的标题元素样式 */
+.h2-home-my-style{
+    display: inline-block;
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: solid #ffffff;
+}
+
+.h2-home-my-style:hover{
+    display: inline-block;
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: solid #ffffff;
+}
+
+
+/* 设置 mian（flex 成员）中的头像、两行文字、若干社交列元素样式 */
+.avator{
+    display: inline-block;
+    margin: 10px auto 10px auto;
+    height: 130px;
+    width: 130px;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+}
+
+.name{
+    color: #ffffff;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.des{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.social-a-my-style{
+    display: inline-block;
+    margin: 2px;
+    padding: 5px;
+    color: #ffffff;
+    border-left: solid 2px transparent;
+    border-right: solid 2px transparent;
+}
+
+.social-a-my-style:hover{
+    display: inline-block;
+    margin: 2px;
+    padding: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    border-left: solid 2px #ffffff;
+    border-right: solid 2px #ffffff;
+    transition: 200ms;
+}

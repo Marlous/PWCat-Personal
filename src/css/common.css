@@ -1,0 +1,31 @@
+/********************** 整个网站通用的组件 **********************/
+
+/* 非主页面（home）中导航栏中标题的样式 */
+.h2-common-my-style{
+    display: inline-block;
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: solid transparent;
+}
+
+.h2-common-my-style:hover{
+    display: inline-block;
+    color: dimgrey;
+    font-weight: bold;
+    border-bottom: solid #ffffff;
+    transition: 200ms;
+}
+
+
+/* 非主页面（home）中右侧导航栏独有样式 */
+.nav-a-common-my-style{
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: solid #ffffff;
+}
+
+.nav-a-common-my-style:hover{
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: solid #ffffff;
+}

@@ -1,0 +1,68 @@
+/********************** 整个网站通用的基础结构 **********************/
+
+/* 添加在 body 上的样式 */
+/* 调试发现宽度在 768px 时，元素会堆叠在一起，超过视窗高度，元素会 “流下去”，
+所以小于这个宽度时，让 body 高度去掉，让元素撑满高度 */
+@media screen and (min-width: 768px) {
+    .body-my-style{
+        height:100vh;
+        background-color: #333333;
+        color: aliceblue;
+        text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+        box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+
+        background-image: url('../img/cool-background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:cover;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .body-my-style{
+        background-color: #333333;
+        color: aliceblue;
+        text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+        box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+
+        background-image: url('../img/cool-background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:cover;
+    }
+}
+
+
+/* 在不改变 bootstrap 中 container 固有宽度情况下，通过添加 margin 来使 flex 成员中的元素更紧凑 */
+header,
+main,
+footer{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/* 设置 header（flex 成员）中的右侧导航栏元素样式 */
+.nav-a-my-style{
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: solid transparent;
+}
+
+.nav-a-my-style:hover{
+    color: dimgrey;
+    font-weight: bold;
+    border-bottom: solid #ffffff;
+    transition: 200ms;
+}
+
+
+/* 设置 footer（flex 成员）中一行文字元素样式 */
+.footer-my-style p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: darkgray;
+    font-size: small;
+}

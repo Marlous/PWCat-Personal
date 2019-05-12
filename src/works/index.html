@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <link rel="bookmark" href="../img/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/works.css">
+    <title>Marlous' Works</title>
+</head>
+
+<body class="body-works-my-style text-center">
+
+    <!--整个网页最外层的容器，flex 布局-->
+    <div class="container h-100 mx-auto p-3 d-flex flex-column">
+
+        <!--header 为最外层容器的 flex 成员-->
+        <header class="mb-auto">
+            <!--flex 成员嵌套一个容器，并通过栅格分成一行（其中两列）-->
+            <div class="container">
+                <div class="row">
+                    <!--第一列-->
+                    <div class="col-md-4">
+                        <h2><a class="h2-common-my-style nav-link" href="https://marlous.github.io/home/">Home</a></h2>
+                    </div>
+                    <!--第二列-->
+                    <div class="col-md-8">
+                        <nav class="navbar justify-content-center">
+                            <a class="nav-a-my-style nav-link" href="https://marlous.github.io/"
+                                target="_blank">Blog</a>
+                            <a class="nav-a-common-my-style nav-link"
+                                href="https://marlous.github.io/home/works/index.html">Works</a>
+                            <a class="nav-a-my-style nav-link" href="https://marlous.github.io/home/mokit/index.html"
+                                target="_blank">MoKit</a>
+                            <a class="nav-a-my-style nav-link"
+                                href="https://marlous.github.io/home/about/index.html">About</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--main 为最外层容器的 flex 成员-->
+        <main class="main-works-my-style">
+            <div class="works-list">
+                <div class="works-item">
+                    <p>⭐ 项目经验小结</p>
+                    <p>⚡ 链接：<a href="https://marlous.github.io/tags/#项目经验小结" target="_blank">My Blog</a></p>
+                    <p>“ 每篇都是与一个项目或经验、笔记等有关的多篇文章的整理汇总（项目整理文章汇总）。 ”</p>
+                </div>
+                <div class="works-item">
+                    <p>⭐ 数据结构命令行菜单程序</p>
+                    <p>⚡ 项目链接：<a href="https://github.com/Marlous/data-structures-for-C-language"
+                            target="_blank">GitHub</a></p>
+                    <p>“ 数据结构 C 语言版的命令行菜单程序（For Windows）。包含教科书上的线性表、栈、队列、树、图、查找、排序。 ”</p>
+                </div>
+                <div class="works-item">
+                    <p>⭐ PWCat-Personal 个人主页网站</p>
+                    <p>⚡ 项目链接：<a href="https://github.com/Marlous/PWCat-Personal" target="_blank">GitHub</a></p>
+                    <p>“ Profile Website - Personal Editon。Bootstrap 响应式布局的个人主页网站。即本站点。 ”</p>
+                </div>
+                <div class="works-item">
+                    <p>⭐ WFACat 微博爬虫社交网络分析</p>
+                    <p>⚡ 项目链接：<a href="https://github.com/Marlous/WFACat" target="_blank">GitHub</a></p>
+                    <p>“ 微博用户好友人际关系网络等数据，深度分析（人脉深度为二），并进行数据可视化。 ”</p>
+                </div>
+                <div class="works-item">
+                    <p>⭐ MoKit 常用网站工具导航</p>
+                    <p>⚡ 项目链接：<a href="https://github.com/Marlous/MoKit" target="_blank">GitHub</a></p>
+                    <p>“ 集合了常用的网站、工具等。提高效率。可以定制作为专属于自己的导航站点。 ”</p>
+                </div>
+                <div class="works-item">
+                    <p>⭐ 命令行菜单程序</p>
+                    <p>⚡ 项目链接：<a href="https://github.com/Marlous/menu-in-cmd" target="_blank">GitHub</a></p>
+                    <p>“ 一个小小的命令行菜单程序。可以集成在自己的 Windows 命令行应用中，通过 API 为应用提供菜单功能。 ”</p>
+                </div>
+                <div class="works-item">
+                    <p>⭐ 我制作的 Docker 应用</p>
+                    <p>⚡ 链接：<a href="https://hub.docker.com/u/marlous" target="_blank">Docker Hub</a></p>
+                    <p>“ 我制作的几个 Docker，已完全配置好，开箱即用。Hexo with CI/CD、LAMP 环境、WordPress 等。 ”</p>
+                </div>
+                <div class="works-item">
+                    <p>项目名称</p>
+                    <p>项目链接</p>
+                    <p>项目描述</p>
+                </div>
+                <div class="works-item">
+                    <p>项目名称</p>
+                    <p>项目链接</p>
+                    <p>项目描述</p>
+                </div>
+            </div>
+        </main>
+
+        <!--footer 为最外层容器的 flex 成员-->
+        <footer class="footer-my-style mt-auto">
+            <p>Copyright © 2019 Marlous. All rights reserved. | Powered by <a href="https://github.com/Marlous/PWCat-Personal">PWCat-Personal</a></p>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
