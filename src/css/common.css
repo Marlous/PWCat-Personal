@@ -1,5 +1,31 @@
 /********************** 整个网站通用的组件 **********************/
 
+/* 添加在 body 上的样式。高度靠页面元素撑开。 */
+@media screen and (min-width: 768px) {
+    .body-common-my-style{
+        background-color: #333333;
+        color: aliceblue;
+        text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+        box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+
+        background-image: url('../img/cool-background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:cover;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .body-common-my-style{
+        background-color: #333333;
+        color: aliceblue;
+        text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+        box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    }
+}
+
+
 /* 非主页面（home）中导航栏中标题的样式 */
 .h2-common-my-style{
     display: inline-block;
